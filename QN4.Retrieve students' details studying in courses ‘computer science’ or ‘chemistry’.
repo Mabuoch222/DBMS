@@ -1,0 +1,17 @@
+SELECT *
+FROM Students
+WHERE course_name IN ('Computer Science', 'Chemistry');
+
+
+STUDENT TABLE
+student_id   | student_name              | course_name
+1            | Alice                     | Computer Science
+2            | Bob                       | Physics
+3            | Charlie                   | Chemistry
+4            | Daisy                     | Mathematics
+
+
+
+student_id     | student_name              | course_name
+1              | Alice                     | Computer Science
+3              | Charlie                   | Chemistry
