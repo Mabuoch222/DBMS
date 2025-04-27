@@ -1,0 +1,9 @@
+SELECT society_name
+FROM Societies;
+
+
+society_name
+Drama Club
+Music Society
+Science Society
+Art Society
