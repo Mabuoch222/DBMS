@@ -1,0 +1,19 @@
+SELECT *
+FROM Societies
+WHERE TotalSeats > 50;
+
+
+
+SOCIETY TABLE
+
+society_id    | society_name            | TotalSeats
+101           | Drama Club              | 40
+102           | Music Society           | 60
+103           | Science Society         | 55
+104           | Art Society             | 30
+
+
+RESULT for N = 50
+society_id    | society_name              | TotalSeats
+102           | Music Society             | 60
+103           | Science Society           | 55
