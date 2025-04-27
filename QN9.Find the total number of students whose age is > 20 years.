@@ -1,0 +1,18 @@
+SELECT COUNT(*) AS total_students
+FROM Students
+WHERE age > 20;
+
+
+Student table
+
+student_id    | student_name    | age
+1             | Alice           | 19
+2             | Bob             | 22
+3             | Charlie         | 21
+4             | Daisy           | 18
+
+
+
+total_students
+2
+(BOb and Charlie)
