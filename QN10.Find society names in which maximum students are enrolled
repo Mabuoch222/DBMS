@@ -1,0 +1,33 @@
+SELECT s.society_name, COUNT(e.student_id) AS total_enrolled
+FROM Societies s
+JOIN Enrollments e ON s.society_id = e.society_id
+GROUP BY s.society_id, s.society_name
+ORDER BY total_enrolled DESC
+LIMIT 1;
+
+
+
+
+Societies Table.
+
+society_id       | society_name
+101              | Drama Club
+102              | Music Society
+103              | Science Society
+
+
+
+Enrollments Table.
+
+enrollment_id | student_id      | society_id
+1             | 1               | 101
+2             | 2               | 101
+3             | 3               | 101
+4             | 4               | 102
+5             | 5               | 102
+6             | 6               | 102
+7             | 7               | 103
+
+
+society_name     | total_enrolled
+Music Society    | 3
