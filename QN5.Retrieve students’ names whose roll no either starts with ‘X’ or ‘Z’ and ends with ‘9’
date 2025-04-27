@@ -1,0 +1,15 @@
+SELECT student_name
+FROM Students
+WHERE (roll_no LIKE 'X%9' OR roll_no LIKE 'Z%9');
+
+
+STUDENT TABLE
+
+student_id     | student_name                     | roll_no
+1              | Alice                            | X1239
+2              | Bob                              | Y4599
+3              | Charlie                          | Z879
+4              | Daisy                            | X3210
+
+
+
