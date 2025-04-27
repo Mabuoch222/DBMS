@@ -1,0 +1,19 @@
+UPDATE Societies
+SET mentor_name = 'Mr. Johnson'
+WHERE society_name = 'Drama Club';
+
+
+SELECT * FROM SOCIETIES;
+  
+Before updating table
+
+society_id     | society_name                | mentor_name
+101            | Drama Club                  | Ms. Smith
+102            | Music Society               | Mr. Adams
+
+
+
+  After table updated
+society_id         | society_name                   | mentor_name
+101                | Drama Club                     | Mr. Johnson
+102                | Music Society                  | Mr. Adams
